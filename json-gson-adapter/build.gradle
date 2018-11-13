@@ -34,5 +34,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     api depend.gson()
-    api project(':library')
+    api 'com.pince.maven:lib-json:1.0.0'
 }

@@ -33,6 +33,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    api project(':library')
     api 'com.alibaba:fastjson:1.2.51'
+    api 'com.pince.maven:lib-json:1.0.0'
 }
