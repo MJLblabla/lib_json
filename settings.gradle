@@ -1,0 +1,1 @@
+include ':app', ':library', ':json-fastjson-adapter', ':json-gson-adapter'
