@@ -1,7 +1,8 @@
 package com.pince.json;
 
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
 
 import java.lang.reflect.Type;
 import java.util.Collection;
