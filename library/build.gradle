@@ -4,7 +4,7 @@ apply plugin: 'com.pince.upaar'
 upinfo {
     groupId = 'com.pince.maven' //选填 默认为此参数
     artifactId = 'lib-json' //必填 组件名称
-    version = '1.0.0'     //必填 组件版本
+    version = '1.0.0-androidx-SNAPSHOT'     //必填 组件版本
     gitRepo = 'origin' //选填
     packaging = 'jar' //选填 默认aar 可填jar
 }
@@ -30,5 +30,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    api depend.support_v4()
+    api depend.appcompat()
 }
